@@ -58,8 +58,3 @@ productFib(30)
 productFib(714)
 productFib(800)
 
-
-
-	};
-	return [n, nplus, n*nplus === prod]; 
-}
