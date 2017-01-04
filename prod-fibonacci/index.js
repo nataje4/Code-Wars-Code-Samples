@@ -29,7 +29,7 @@ phi which is (1 + sqrt(5))/2 knowing that F(n) is asymptotic to: phi^n / sqrt(5)
 
 https://www.codewars.com/kata/5541f58a944b85ce6d00006a/train/javascript
 
-******MY SOLUTION******
+*/
 
 
 function addsNextFib(arr) {
@@ -59,16 +59,7 @@ productFib(714)
 productFib(800)
 
 
-*/
 
-//Best Practices Solution 
-
-function productFib(prod){
-	var n = 0;
-	var nplus = 1;
-	while (n*nplus < prod) {
-		nplus = n + nplus; 
-		n = nplus - n;
 	};
 	return [n, nplus, n*nplus === prod]; 
 }
