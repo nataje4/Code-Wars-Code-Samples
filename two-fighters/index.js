@@ -60,8 +60,3 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
   return winner.name;
 }
 
-
-/* declareWinner(new Fighter("Lew", 10, 2), new Fighter("Harry", 5, 4), "Lew"), is Harry, should be Lew
-
-
-*/
