@@ -125,10 +125,5 @@ assert.equal(a.dot(b), [1, 2].toString());
 assert.equal(a.dot(c), [4, 0].toString());
 assert.equal(a.dot(b), b.dot(a));
 
-//tests on Vector norm function 
-
-
-
-//tests on Vector Equals fundtion  
 
 
